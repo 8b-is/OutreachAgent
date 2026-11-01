@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Environment & Secrets
+.env
+.env.local
+*.pem
+*.key
+
+# Runtime Dispatch Logs, Screenshots & Browser Profiles (Never Commit PII)
+outreach_dispatch_log.json
+screenshots/
+*.png
+cloak-profile*/
+chrome-bridge*/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
